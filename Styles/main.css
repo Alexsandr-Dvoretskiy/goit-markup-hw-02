@@ -46,7 +46,13 @@ ul {
 .site-nav .current {
 	color: var(--title-text-color);
 }
-
+.auth-nav {
+	color: var(--accent-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+	color: var(--title-text-color);
+}
 /* hero */
 
 .hero {
@@ -56,7 +62,7 @@ ul {
 .hero h1 {
 	color: var(--primari-bg-color);
 }
-.button {
+.button-hero {
 	color: var(--primari-bg-color);
 	background-color: var(--accent-text-color);
 	font-weight: 700;
