@@ -1,0 +1,107 @@
+/* Палитра */
+/* вторичный цвет #212121 */
+/* основной цвет #757575 */
+/* акцент #2196F3 */
+/* цвет header #FFFFFF */
+/* цвета лого #2196F3 #000000*/
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-text-color: #2196f3;
+	--primari-bg-color: #ffffff;
+}
+
+body {
+	background-color: var(--primari-bg-color);
+	color: var(--primary-text-color);
+}
+
+/* header */
+
+/* logo */
+
+.logo {
+	color: #000000;
+}
+
+/* nav */
+
+.page-feader {
+	background-color: var(--primari-bg-color);
+}
+ul {
+	list-style: none;
+}
+
+.site-nav a {
+	color: var(--accent-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+	color: var(--title-text-color);
+}
+.site-nav .current {
+	color: var(--title-text-color);
+}
+
+/* hero */
+
+.hero {
+	height: 600px;
+	background-color: #2f303a;
+}
+.hero h1 {
+	color: var(--primari-bg-color);
+}
+.button {
+	color: var(--primari-bg-color);
+	background-color: var(--accent-text-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/* section */
+
+.section-title {
+	color: var(--title-text-color);
+}
+
+/* benefits */
+
+.benefits {
+	background-color: #e5e5e5;
+}
+/* features */
+
+.features .title {
+	color: var(--title-text-color);
+}
+
+/* наша команда */
+
+.team {
+	background-color: #f5f4fa;
+}
+.team-list h3 {
+	color: var(--title-text-color);
+}
+
+/* fotter */
+
+.fotter {
+	background-color: #2f303a;
+}
+.fotter a:hover,
+.fotter a:focus {
+	color: var(--title-text-color);
+}
+.address-list {
+	color: var(--primari-bg-color);
+}
+.address-contacts {
+	color: rgba(255, 255, 255, 0.6);
+}
