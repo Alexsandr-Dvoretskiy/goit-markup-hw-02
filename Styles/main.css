@@ -49,11 +49,10 @@ ul {
 }
 .logo.text {
 	color: #2196f3;
-	font-family: "Raleway", sans-serif;
 }
 .accent-logo.text {
 	color: var(--primari-bg-color);
-	font-family: "Raleway", sans-serif;
+
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.23;
