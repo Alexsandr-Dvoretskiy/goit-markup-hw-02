@@ -214,6 +214,7 @@ ul {
 	background-color: var(--main-background-color);
 	text-decoration: none;
 }
+/* кнопки навигации */
 .button-nav {
 	color: var(--title-text-color);
 	background-color: var(---primary-text-color);
@@ -231,6 +232,7 @@ ul {
 	color: var(--title-text-color);
 	background-color: var(--accent-text-color);
 }
+/* ссылки */
 
 .portfolio-title {
 	color: var(--title-text-color);
