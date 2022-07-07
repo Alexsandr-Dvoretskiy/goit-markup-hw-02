@@ -52,7 +52,6 @@ ul {
 }
 .accent-logo.text {
 	color: var(--primari-bg-color);
-
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.23;
@@ -65,7 +64,7 @@ ul {
 }
 
 .site-nav a {
-	color: var(--accent-text-color);
+	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -74,28 +73,28 @@ ul {
 
 .site-nav a:hover,
 .site-nav a:focus {
-	color: var(--title-text-color);
-	text-decoration: none;
+	color: var(--accent-text-color);
 }
+
 .site-nav.current {
 	color: var(--title-text-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
-	text-decoration: none;
 }
-.auth-nav {
-	color: var(--accent-text-color);
+
+.auth-nav a {
+	color: var(--title-text-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
-	text-decoration: none;
 }
+
 .auth-nav a:hover,
 .auth-nav a:focus {
-	color: var(--title-text-color);
+	color: var(--accent-text-color);
 }
 
 /* hero */
@@ -104,8 +103,9 @@ ul {
 	height: 600px;
 	text-align: center;
 }
+
 .hero-title {
-	color: var(--title-text-color);
+	color: var(--primary-text-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -113,6 +113,7 @@ ul {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
+
 .button-hero {
 	color: var(--primari-bg-color);
 	background-color: var(--accent-text-color);
@@ -157,7 +158,6 @@ ul {
 }
 
 .feature-text {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
@@ -198,15 +198,14 @@ ul {
 .address-list {
 	color: var(--primari-bg-color);
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
 	text-decoration: none;
 }
+
 .address-contacts {
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
 	text-decoration: none;
@@ -218,10 +217,12 @@ ul {
 	background-color: var(--main-background-color);
 	text-decoration: none;
 }
+
 /* кнопки навигации */
+
 .button-nav {
 	color: var(--title-text-color);
-	background-color: var(---primary-text-color);
+	background-color: var(--primary-text-color);
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -236,6 +237,7 @@ ul {
 	color: var(--title-text-color);
 	background-color: var(--accent-text-color);
 }
+
 /* ссылки */
 
 .portfolio-title {
@@ -247,11 +249,10 @@ ul {
 }
 
 .portfolio-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
-	color: var(---primary-text-color);
+	color: var(--primary-text-color);
 }
 
 .button-list {
